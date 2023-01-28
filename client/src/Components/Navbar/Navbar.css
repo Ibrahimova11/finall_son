@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar{
+    
+    width: 100%;
+     height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+.navbar__right ul  {
+    display: flex;
+    margin-left: -300px;
+    gap:20px
+ 
+}
+.navbar__right ul li {
+    display: flex;
+    margin-left: 10px;
+    color:rgb(190, 185, 185);
+    font-size:19px;
+    cursor: pointer;
+ 
+    
+}
+.navbar__left{
+    color:white;
+    font-family:Open Sans;;
+}
+.link{
+    color:rgb(190, 185, 185);
+   text-decoration: none;
+}
+.navbar{
+    border: 1px solid rgb(150, 149, 149);;
+}
